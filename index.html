@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+    <nav>
+        <a href="#">HOME</a> |
+        <a href="#/">ABOUT</a> |
+        <a href="#">CONTACT US</a>
+    </nav>
+    <!-- this is the id selector -->
+      <h3 id="title1">DRAGONS Flash News!</h3> 
+    <!-- descendant selector -->
+    <div class = "seconddiv">
+      <p><b>Live updates:</b> Meghan Markle will follow the Queen's funeral procession in a car while King Charles III and other royal family members walk behind Her Majesty's coffin</p>
+    </div>
+
+    <pre><b id="multip">Live updates:</b> Thousands join line stretching across London to pay respects as Queen Elizabeth II lies in state</pre>
+
+    <div class="header">
+    <header>
+    <h2>Queen Elizabeth II has died</h2>
+    <section>
+        <h6><b>Buckingham Palace said the queen, who was 96, died peacefully at Balmoral Castle, her estate in the Scottish Highlands. Her son became Britain’s new monarch, King Charles III.</b></h6>
+    </section>
+    </header>
+    </div>
+    
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+    <article>
+    <hgroup>
+      <h2>Queen Elizabeth’s Death Comes at Moment of Great Uncertainty for Britain</h2>
+      <h5>Written by Karylle L. Lopez</h5>
+      <p>Published Sept. 8, 2022  | Updated Sept. 9, 2022, 3:32 p.m.</p>
+      <br>
+      <p>LONDON — Queen Elizabeth II, whose seven-decade reign made her the only sovereign that most Britons had ever known, died on Thursday at her summer estate in Scotland, thrusting a bereaved country into a momentous transition at a time of political and economic upheaval.
+        <br><br>
+        The queen’s death at Balmoral Castle, announced by Buckingham Palace at 6:30 p.m., elevated her eldest son and heir, Charles, to the throne. He is Britain’s first king since 1952, taking the name King Charles III.</p>
+    </hgroup>
+    </div>
+
+    </article>
+    <div class="card">
+      <article>
+    <hgroup>
+      <h2>The queen oversaw the monarchy’s embrace of TV, Twitter and YouTube.</h2>
+      <h5>Written by Karylle L. Lopez</h5>
+      <p>Published Sept. 8, 2022  | Updated Sept. 9, 2022, 4:26 p.m.</p>
+      <p>When Queen Elizabeth II’s coronation in 1953 became the first to be broadcast live, many viewers had bought a television specifically for the event.
+        <br><br>Further technological revolutions would roll along, and the British monarchy, despite its renowned reverence for tradition, would embrace the accelerating changes — though not always immediately.</p>
+    </hgroup>
+    </div>
+  </article>
+  <div class="card">
+    <article>
+   <!--pseudo-class selector -->
+    <h2>MORE TOP STORIES HERE:</h2>
+    <p><a class="highlight" href="https://www.insider.com/queen-elizabeth-ii-live-updates-9-2022">MORE: Line through London to see Queen Elizabeth II's coffin</a></p>
+    <p><a class="highlight" href="https://www.independent.co.uk/news/uk/home-news/queen-elizabeth-funeral-lying-in-state-queue-latest-b2168497.html">MORE: Queen queue - latest update </a></p>
+    <p><a class="highlight" href="https://www.bbc.com/news/uk-62836057">MORE: Queen under medical supervision at Balmoral</a></p>
+</div>
+  </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+    <footer>
+        <p>Copyright 2022</p>
+        <p>All rights reserved</p>
+
+        <nav>
+            <a href="#" target="_blank">HOME</a> |
+            <a href="#/"target="_blank">ABOUT</a> |
+            <a href="#"target="_blank">CONTACT US</a>
+          </nav>
+          <br>
+          <address> Angeles University Foundation <br> Angeles City, Pampanga </address>
+          </header>
+      </footer>
+</div>
+
+</body>
+</html>

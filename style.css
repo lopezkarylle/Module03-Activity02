@@ -1,0 +1,50 @@
+    body {
+    background-color: white;
+    }
+    /*type Selector*/
+    h1{
+      color:blue;
+      background-color: yellow;
+    }
+    /*id Selector*/
+    #textcolor {
+      color:green;
+    }
+    .textclass{
+      color:red;
+    }
+    /* descendent selector */
+    div.seconddiv p {
+      background-color: rgb(102, 146, 228);
+    }
+  
+    section:hover{
+      background-color: yellow;
+    }
+    
+    hgroup:hover{
+      background-color: rgb(209, 133, 100);
+    }
+
+    a.highlight:hover {
+        color: #ff0000;
+        font-size: 22px;
+    } 
+    /*id Selector*/
+    #title1 { 
+        text-align: center;
+        color: red;
+    }
+    /*class Selector*/
+    .center {
+        text-align: center;
+        color: red;
+    }
+    /*attribute Selector*/
+    a[target] {
+        background-color: rgb(80, 201, 238);
+    }
+    /*multiple styles Selector*/
+    pre, #multip{
+        background-color: rgb(148, 136, 219);
+    }
