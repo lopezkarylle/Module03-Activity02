@@ -48,3 +48,36 @@
     pre, #multip{
         background-color: rgb(148, 136, 219);
     }
+
+    li{
+      float: left;
+  }
+  
+  li a{
+      display: block;
+      padding: 20px;
+      color: rgb(106, 136, 194);
+      text-align: center;
+      text-decoration: none;
+  }
+  
+  ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(18, 71, 131);
+      overflow: hidden;
+      
+      position: sticky;
+      top: 0;
+  }
+  
+  .active{
+      background-color: rgb(27, 67, 177);
+      color: white;
+  }
+  
+  li a:hover{
+      background-color: rgb(126, 150, 185);
+      color: white;
+  }
